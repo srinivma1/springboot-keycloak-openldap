@@ -112,7 +112,7 @@ There are two ways: running a script or using `Keycloak` website
 - Set `simple-service` to `Client ID` and click `Save` button
 - In `Settings` tab
   - Set `confidential` to `Access Type`
-  - Set `http://localhost:9080` to `Valid Redirect URIs`
+  - Set `*` to `Valid Redirect URIs`
   - Click `Save` button
 - In `Credentials` tab you can find the secret `Keycloak` generated for `simple-service`
 - In `Roles` tab
