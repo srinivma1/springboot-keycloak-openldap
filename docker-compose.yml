@@ -49,6 +49,6 @@ services:
     environment:
       - PHPLDAPADMIN_LDAP_HOSTS=openldap
     ports:
-      - "6443:443"
+      - "6445:443"
     depends_on:
       - openldap
